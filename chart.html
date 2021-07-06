@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="chart.css">
+
+    <title> PIE CHART </title>
+</head>
+
+<body>
+
+
+    <section class="pie_chart_content">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-6">
+                        <div class="main_box">
+                            <h1> UNIVERSITY PERFORMANCE</h1>
+                            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                            <br>
+                            <br>
+                            <canvas id="myCharx" style="width:100%;max-width:600px"></canvas>
+                        </div>
+                    </div>
+                    <div class=" col-md-6">
+                        <div class="count_box">
+                            <div class="form-group">
+                                <label for="coronavirus-input"> total number of years (each over 100)</label>
+                            </div><br>
+                            <hr>
+
+                            <div class="form-group">
+                                <label for="coronavirus-input">1st YEAR</label>
+                                <input type="text" name="first" class="first">
+                            </div><br>
+                            <hr>
+
+                            <div class="form-group">
+                                <label for="coronavirus-input"> 2nd YEAR</label>
+                                <input type="text" name="second" class="second">
+                            </div><br>
+                            <hr>
+
+                            <div class="form-group">
+                                <label for="coronavirus-input">3rd YEAR</label>
+                                <input type="text" name="third" class="third">
+                            </div><br>
+                            <hr>
+                            <div class="form-group">
+                                <label for="coronavirus-input">4th YEAR</label>
+                                <input type="text" name="fourth" class="fourth">
+                            </div><br>
+                            <hr>
+                            <div class="form-group">
+                                <label for="coronavirus-input">5th YEAR</label>
+                                <input type="text" name="fifth" class="fifth">
+                            </div><br>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="chart.js"></script>
+
+</body>
+
+</html>
